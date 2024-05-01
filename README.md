@@ -3,7 +3,7 @@
 
 This repository contains a series of notebooks for training quantum classifiers, comparing them to classical machine learning algorithms, and evaluating their quantum multi-accuracy as defined in our project.
 
-Prerequisites for running these notebooks include `scikit-learn` and `qiskit`, which can both be installed in `pip` or `conda`.
+Prerequisites for running these notebooks include `scikit-learn`, `qiskit`, and `qiskit-machine-learning`, which can all be installed in `pip` or `conda`.
 
 - `qsvc_multiaccuracy.ipynb` trains a Quantum Support Vector Classifier on a dataset of credit loan defaults in Taiwan in 2005, and evaluates its hybrid quantum multi-accuracy with respect to demographic factors. **The simulations from this notebook are detailed in our project report.**
 - `vqc_fair_datasets.ipynb` trains a Variational Quantum Classifier on the same dataset
